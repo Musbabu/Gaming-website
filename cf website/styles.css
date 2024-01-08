@@ -1,0 +1,71 @@
+body {
+    background: url('your-background-image.jpg') no-repeat center center fixed; 
+    background-size: cover;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add background color for text */
+h2, .navbar a, .youtube-section h3, .youtube-section a {
+    background-color: rgba(0, 0, 0, 0.5); /* Adjust the alpha (fourth value) for transparency */
+    padding: 5px; /* Add some padding for better visibility */
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.navbar {
+    background-color: darkcyan;
+    overflow: hidden;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    background-color: black;
+    color: white;
+}
+
+.content-section {
+    text-align: center;
+    margin: 50px;
+}
+
+.youtube-section {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.youtube-section h3 {
+    color: dodgerblue;
+}
+
+.youtube-section a {
+    color: limegreen;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.youtube-section img {
+    max-width: 50%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 50%; /* Make the image round */
+}
+
